@@ -24,4 +24,14 @@
     NSLog(@"Unwind");
 }
 
+-(BOOL) shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    NSLog(@"shouldPerformSegueWithIdentifier: %@", identifier);
+    return YES;
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSLog(@"prepareForSegue: %@, %@", segue.identifier, [segue.destinationViewController description]);
+}
+
+
 @end

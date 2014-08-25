@@ -13,7 +13,6 @@
 		8690A40219AB94DB0057CAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8690A40019AB94DB0057CAB7 /* Main.storyboard */; };
 		8690A40419AB94DB0057CAB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8690A40319AB94DB0057CAB7 /* Images.xcassets */; };
 		8690A41019AB94DC0057CAB7 /* UnwindDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8690A40F19AB94DC0057CAB7 /* UnwindDemoTests.m */; };
-		8690A41E19ABC9990057CAB7 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8690A41D19ABC9990057CAB7 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +38,6 @@
 		8690A40919AB94DC0057CAB7 /* UnwindDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnwindDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8690A40E19AB94DC0057CAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8690A40F19AB94DC0057CAB7 /* UnwindDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnwindDemoTests.m; sourceTree = "<group>"; };
-		8690A41C19ABC9990057CAB7 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
-		8690A41D19ABC9990057CAB7 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +83,6 @@
 				8690A3FB19AB94DB0057CAB7 /* AppDelegate.m */,
 				8690A3FD19AB94DB0057CAB7 /* ViewController.h */,
 				8690A3FE19AB94DB0057CAB7 /* ViewController.m */,
-				8690A41C19ABC9990057CAB7 /* ModalViewController.h */,
-				8690A41D19ABC9990057CAB7 /* ModalViewController.m */,
 				8690A40019AB94DB0057CAB7 /* Main.storyboard */,
 				8690A40319AB94DB0057CAB7 /* Images.xcassets */,
 				8690A3F619AB94DB0057CAB7 /* Supporting Files */,
@@ -219,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8690A41E19ABC9990057CAB7 /* ModalViewController.m in Sources */,
 				8690A3FF19AB94DB0057CAB7 /* ViewController.m in Sources */,
 				8690A3FC19AB94DB0057CAB7 /* AppDelegate.m in Sources */,
 				8690A3F919AB94DB0057CAB7 /* main.m in Sources */,
