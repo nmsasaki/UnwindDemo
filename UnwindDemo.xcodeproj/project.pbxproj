@@ -334,6 +334,7 @@
 				INFOPLIST_FILE = UnwindDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,6 +346,7 @@
 				INFOPLIST_FILE = UnwindDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -401,6 +403,7 @@
 				8690A41519AB94DC0057CAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8690A41619AB94DC0057CAB7 /* Build configuration list for PBXNativeTarget "UnwindDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +412,7 @@
 				8690A41819AB94DC0057CAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
